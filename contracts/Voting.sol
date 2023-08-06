@@ -142,4 +142,8 @@ contract VotingSystem {
         
         return string(buffer);
     }
+     function showWinner() public view returns (uint count) {
+        count = candidates.length;
+       
+    }
 }
